@@ -1,0 +1,31 @@
+﻿Build started 2016-01-25 22:24:45.
+     1>Project "C:\Users\Michal\Documents\Visual Studio 2013\Projects\Plecak\Plecak\Plecak.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(7): warning C4005: 'max' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(193) : see previous definition of 'max'
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(9): warning C4005: 'min' : macro redefinition
+                 c:\program files (x86)\windows kits\8.1\include\shared\minwindef.h(197) : see previous definition of 'min'
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(79): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(95): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(98): warning C4244: '=' : conversion from 'unsigned int' to 'float', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(215): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(228): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(333): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(429): warning C4244: '=' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(449): warning C4244: '=' : conversion from 'float' to 'int', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(452): warning C4244: 'argument' : conversion from 'time_t' to 'unsigned int', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(468): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(504): warning C4244: 'initializing' : conversion from 'LONGLONG' to 'double', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(517): warning C4244: 'initializing' : conversion from 'LONGLONG' to 'double', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(529): warning C4244: 'initializing' : conversion from 'LONGLONG' to 'double', possible loss of data
+     1>c:\users\michal\documents\visual studio 2013\projects\plecak\plecak\main.cpp(544): warning C4244: 'initializing' : conversion from 'LONGLONG' to 'double', possible loss of data
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Michal\Documents\Visual Studio 2013\Projects\Plecak\Debug\Plecak.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Michal\Documents\Visual Studio 2013\Projects\Plecak\Debug\Plecak.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Michal\Documents\Visual Studio 2013\Projects\Plecak\Debug\Plecak.lib" /MACHINE:X86 Debug\main.obj
+         Plecak.vcxproj -> C:\Users\Michal\Documents\Visual Studio 2013\Projects\Plecak\Debug\Plecak.exe
+     1>Done Building Project "C:\Users\Michal\Documents\Visual Studio 2013\Projects\Plecak\Plecak\Plecak.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.41
